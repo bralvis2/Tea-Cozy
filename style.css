@@ -22,6 +22,8 @@ header img {
 #mission {
     background: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*si3pah*_ga*Mzg1NzI0NzI0NS4xNjc0MDE3MTI2*_ga_3LRZM6TM9L*MTY3NDE3MzI1NS44LjEuMTY3NDE3NTU5OS4yNy4wLjA.");
     height: 700px;
+    background-repeat: no-repeat;
+    margin-left: 7%;
 }
 
 #banner {
@@ -48,6 +50,25 @@ div img {
 
 /* Locations */
 #locations {
+    background: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*jato0r*_ga*Mzg1NzI0NzI0NS4xNjc0MDE3MTI2*_ga_3LRZM6TM9L*MTY3NDE3MzI1NS44LjEuMTY3NDE3ODI1My41NS4wLjA.");
+    height: 500px;
+    background-repeat: no-repeat;
+}
+
+#location-container {
+    display: inline-flex;
+    
+}
+
+.locations {
+    background-color: black;
+    height: 300px;
+    width: 300px;
+    margin: 20px;
+}
+
+/* Contact */
+#contact {
     height: 200px;
 }
 
