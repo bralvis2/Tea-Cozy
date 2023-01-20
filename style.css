@@ -5,5 +5,54 @@ body {
     background-color: #000000;
     opacity: 0.9;
     text-align: center;
+    box-sizing: border-box;
 }
 
+/* Header */
+header {
+    display: inline-flex;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+}
+
+header img {
+    padding-left: 10px;
+}
+
+#mission {
+    background: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*si3pah*_ga*Mzg1NzI0NzI0NS4xNjc0MDE3MTI2*_ga_3LRZM6TM9L*MTY3NDE3MzI1NS44LjEuMTY3NDE3NTU5OS4yNy4wLjA.");
+    height: 700px;
+}
+
+#banner {
+    background-color: #000000;
+    position: relative;
+    top: 300px;
+}
+
+/* Featured Teas */
+#teas {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+div img {
+    height: 200px;
+    width: 300px;
+}
+
+#teas p {
+    margin-top: 10px;
+}
+
+/* Locations */
+#locations {
+    height: 200px;
+}
+
+/* Footer */
+footer {
+    text-align: left;
+    padding-left: 20px;
+}
