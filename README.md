@@ -2,7 +2,7 @@
 
 <h1 align="center">
   <br>
-  <a href=""><img src="./img/tea-cozy.png" alt="Tea Cozy Image" width="500"></a>
+  <a href="https://bralvis2.github.io/Tea-Cozy/"><img src="./img/tea-cozy.png" alt="Tea Cozy Image" width="500"></a>
 </h1>
 
 <h4 align="center">Tea Cozy</h4>
