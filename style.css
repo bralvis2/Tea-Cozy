@@ -39,13 +39,21 @@ ul li {
     margin-right: 10px;
 }
 
+a {
+    color: seashell;
+}
+
 
 /* Mission */
 #mission {
     background: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*si3pah*_ga*Mzg1NzI0NzI0NS4xNjc0MDE3MTI2*_ga_3LRZM6TM9L*MTY3NDE3MzI1NS44LjEuMTY3NDE3NTU5OS4yNy4wLjA.");
-    height: 700px;
+    background-size: cover;
     background-repeat: no-repeat;
-    margin-left: 7%;
+    position: relative;
+    top: 42px;
+    height: 700px;
+    width: 1200px;
+    margin: auto;
 }
 
 #banner {
@@ -59,6 +67,11 @@ ul li {
     display: inline-flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    width: 1000px;
+}
+
+#featured-tea h2 {
+    margin-top: 100px;
 }
 
 div img {
@@ -89,13 +102,16 @@ div img {
     margin: 20px;
 }
 
-/* Contact */
-#contact {
-    height: 200px;
-}
+
 
 /* Footer */
 footer {
     text-align: left;
     padding-left: 20px;
+}
+
+/* Contact */
+#contact {
+    height: 200px;
+    text-align: center;
 }
