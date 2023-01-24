@@ -11,14 +11,36 @@ body {
 /* Header */
 header {
     display: inline-flex;
+    position: fixed;
+    left: 0;
+    top: 0;
     height: 69px;
+    width: 100%;
+    background: #000000;
     border-bottom: 1px solid seashell;
+    z-index: 1;
 }
 
 header img {
     padding-left: 10px;
+    padding-top: 10px;
 }
 
+nav {
+    width: 100%;
+}
+
+ul {
+    text-align: right;
+}
+
+ul li {
+    display: inline-flex;
+    margin-right: 10px;
+}
+
+
+/* Mission */
 #mission {
     background: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*si3pah*_ga*Mzg1NzI0NzI0NS4xNjc0MDE3MTI2*_ga_3LRZM6TM9L*MTY3NDE3MzI1NS44LjEuMTY3NDE3NTU5OS4yNy4wLjA.");
     height: 700px;
