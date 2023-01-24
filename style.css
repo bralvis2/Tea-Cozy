@@ -86,13 +86,21 @@ div img {
 /* Locations */
 #locations {
     background: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*jato0r*_ga*Mzg1NzI0NzI0NS4xNjc0MDE3MTI2*_ga_3LRZM6TM9L*MTY3NDE3MzI1NS44LjEuMTY3NDE3ODI1My41NS4wLjA.");
-    height: 500px;
+    background-size: cover;
     background-repeat: no-repeat;
+    height: 550px;
+    width: 1200px;
+    margin: auto;
+
+}
+
+#locations h2 {
+    padding-top: 70px;
+    margin-bottom: 0px;
 }
 
 #location-container {
     display: inline-flex;
-    
 }
 
 .locations {
@@ -100,7 +108,13 @@ div img {
     height: 300px;
     width: 300px;
     margin: 20px;
+    opacity: 1;
 }
+
+.locations p {
+    margin-top: 10px;
+}
+
 
 
 
