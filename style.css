@@ -63,6 +63,11 @@ a {
 }
 
 /* Featured Teas */
+#featured-tea {
+    width: 1200px;
+    margin: auto;
+}
+
 #teas {
     display: inline-flex;
     flex-wrap: wrap;
@@ -128,4 +133,6 @@ footer {
 #contact {
     height: 200px;
     text-align: center;
+    width: 1200px;
+    margin: auto
 }
